@@ -10,10 +10,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(
-          title: Text("Portfolio"),
-          elevation: 15.0,
-        ),
+        appBar: AppBar(elevation: 15.0),
         body: SingleChildScrollView(
           child: Column(
             children: [
@@ -45,9 +42,9 @@ class HomePage extends StatelessWidget {
                       horizontal: 20.0,
                     ),
                     child: Text(
-                      "Name: BIBIN ",
+                      "Name: BIBIN RAJ K ",
                       style: TextStyle(
-                        fontSize: 24,
+                        fontSize: 25,
                         color: Colors.lightBlue,
                         fontWeight: FontWeight.bold,
                       ),
